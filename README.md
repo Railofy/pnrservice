@@ -1,7 +1,7 @@
 # pnrservice
 PNR service for IRCTC train tickets. Indian Railways booking waitlist status.
 
-API Endpoints
+# API Endpoints
 Once you've registered your client, it's easy to start requesting data from Railofy.
 All endpoints are only accessible via https and are located at odinsword.railofy.com
 For instance: you can retrieve passenger information with a given PNR by accessing the following URL with your access_key (replace ACCESS-TOKEN with your own):
@@ -9,10 +9,11 @@ https://odinsword.railofy.com/v1/getRailofyTravelGuarantee/?pnr=<PNR>
 Headers
 x-api-key: ACCESS_TOKEN
 
+# Request structure
 GET
 /getRailofyTravelGuarantee/?pnr=8888888888
 
-Sample Response structure:
+# Sample Response structure
 {
 "success": true,
 "message": "Data found",
@@ -75,7 +76,7 @@ Sample Response structure:
         }
 }
 
-Error Responses
+# Error Responses
 {
    "success": false,
    "message": "Invalid Access Key",
@@ -104,8 +105,8 @@ Error Responses
    "data": {}
 }
 
-Limits
+# Limits
 Please refer to the Annexure for information on rate limits that apply to API requests.
 
-Contact
+# Contact
 For any queries, please contact: ankita@railofy.com
