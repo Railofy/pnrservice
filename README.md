@@ -10,8 +10,7 @@ For instance: you can retrieve passenger information with a given PNR by accessi
 
 > https://odinsword.railofy.com/v1/getRailofyTravelGuarantee/?pnr=<PNR>
 
-Headers
-
+**Headers**
 x-api-key: ACCESS_TOKEN
 
 ### Request structure
