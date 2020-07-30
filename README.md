@@ -6,7 +6,7 @@ Once you've registered your client, it's easy to start requesting data from Rail
 
 All endpoints are only accessible via https and are located at odinsword.railofy.com
 
-For instance: you can retrieve passenger information with a given PNR by accessing the following URL with your access_key (replace ACCESS-TOKEN with your own):
+For instance: you can retrieve passenger information with a given PNR by accessing the following URL with your access_key (replace ACCESS-TOKEN with your own).
 
 > https://odinsword.railofy.com/v1/getRailofyTravelGuarantee/?pnr=<PNR>
 
